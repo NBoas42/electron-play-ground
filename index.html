@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>electron-p5-boilerplate</title>
+		<!–This is where to change the different Projects –> 
+		<script src='./sketch.js'></script>
+
+		<!–Initialize p5 App with above sketch App –> 
+		<script>
+			var p5 = require('./NoNPMDependencies/P5/p5.js');
+			var app = new p5(sketch);
+		</script>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+      			-webkit-app-region: drag;
+      			-webkit-user-select: none;
+			}
+			canvas {
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+	</body>
+</html

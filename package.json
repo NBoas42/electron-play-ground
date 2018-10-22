@@ -1,0 +1,17 @@
+{
+  "name": "electron-play-ground",
+  "version": "1.0.0",
+  "description": "Graphical Javascript PlayGround",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.3.4"
+  },
+  "devDependencies": {
+    "electron": "^3.0.5"
+  }
+}
